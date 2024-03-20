@@ -1,0 +1,22 @@
+/* normalize.css */
+@import url(https://necolas.github.io/normalize.css/latest/normalize.css);
+
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap");
+
+/* variables */
+@import "./Variables.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--main-font-family);
+  font-size: var(--main-font-size);
+  font-weight: var(--font-weight-normal);
+  background-color: var(--grey-100-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
