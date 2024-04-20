@@ -16,7 +16,18 @@ body {
   font-family: var(--main-font-family);
   font-size: var(--main-font-size);
   font-weight: var(--font-weight-normal);
-  background-color: var(--grey-100-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  max-width: 1480px;
+  margin: 0 auto;
+  background-color: var(--grey-100-color);
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
