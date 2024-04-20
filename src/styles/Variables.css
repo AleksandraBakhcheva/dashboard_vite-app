@@ -1,0 +1,21 @@
+:root {
+  /* colors */
+  --general-app-color: #5ba4a4;
+  --general-white-color: #ffffff;
+  --grey-100-color: #effafa;
+  --grey-200-color: #eef6f6;
+  --grey-800-color: #7b8e8e;
+  --grey-900-color: #2c3a3a;
+
+  /* font */
+  --main-font-family: "Spartan", sans-serif;
+  --main-font-size: 15px;
+  --font-weight-normal: 500;
+  --font-weight-bold: 700;
+
+  /* other */
+  --general-radii: 5px;
+  --general-radii-full: 50%;
+  --general-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
