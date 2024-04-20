@@ -3,7 +3,7 @@
   background-image: url(../../assets/images/bg-header-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: var(--general-bg-color);
+  background-color: var(--general-app-color);
 }
 
 @media (min-width: 1024px) {
