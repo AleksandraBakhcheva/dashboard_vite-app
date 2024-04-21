@@ -1,0 +1,15 @@
+.footer {
+  padding: 25px;
+  text-align: center;
+  background-color: var(--general-app-color);
+}
+
+.footer_link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer_link:hover {
+  color: var(--general-app-color);
+  background-color: var(--grey-100-color);
+}
