@@ -6,6 +6,12 @@
   background-color: var(--general-app-color);
 }
 
+.header h1 {
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+}
+
 @media (min-width: 1024px) {
   .header {
     background-image: url(../../assets/images/bg-header-desktop.svg);
