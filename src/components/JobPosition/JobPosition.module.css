@@ -1,0 +1,78 @@
+.jobPosition {
+  display: grid;
+  padding: 1.5rem;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .jobPosition {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+.jobPosition_info {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .jobPosition_info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.jobPosition_logo {
+  width: 100px;
+  height: 100px;
+}
+
+.jobPosition_body {
+  display: flex;
+  flex-direction: column;
+}
+
+.jobPosition_company {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.jobPosition_company h3 {
+  margin: 0;
+  font-style: var(--font-weight-normal);
+  font-weight: var(--font-weight-bald);
+  color: var(--general-app-color);
+}
+
+.jobPosition_title {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.jobPosition_title:hover {
+  color: var(--general-app-color);
+}
+
+.jobPosition_meta {
+  position: relative;
+  color: var(--grey-800-color);
+}
+
+.jobPosition_meta:not(:last-child) {
+  padding-right: 0.5rem;
+}
+
+.jobPosition_meta:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: -6px;
+  top: 6px;
+  width: 4px;
+  height: 4px;
+  border-radius: var(--general-radii-full);
+  background-color: var(--grey-800-color);
+}
