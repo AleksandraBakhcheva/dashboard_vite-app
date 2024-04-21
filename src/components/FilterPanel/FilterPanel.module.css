@@ -1,11 +1,11 @@
-.container {
+.filterPanel {
   display: flex;
   margin-top: -32px;
   padding: 0.75rem 1.25rem;
   justify-content: space-between;
 }
 
-.link {
+.filterPanel_link {
   padding: 0.5rem;
   font-weight: var(--font-weight-bold);
   text-decoration: none;
@@ -15,7 +15,7 @@
   background-color: transparent;
 }
 
-.link:hover {
+.filterPanel_link:hover {
   text-decoration: underline;
   color: var(--general-app-color);
 }

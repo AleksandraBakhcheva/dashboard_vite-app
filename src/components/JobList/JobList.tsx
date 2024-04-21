@@ -4,7 +4,7 @@ import { JobPosition } from "../JobPosition/JobPosition.js";
 
 export const JobList = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.jobList}>
       {data.map((item) => (
         <JobPosition key={item.id} {...item} />
       ))}
