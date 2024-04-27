@@ -1,5 +1,13 @@
 .stack {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
   gap: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .stack {
+    justify-content: flex-start;
+  }
 }
