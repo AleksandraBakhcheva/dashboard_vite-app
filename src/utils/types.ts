@@ -3,6 +3,7 @@ import { MouseEventHandler } from "react";
 export type CardProps = {
   isFeatured?: boolean;
   children?: React.ReactNode;
+  className?: string;
 };
 
 export type BadgeProps = {
@@ -15,6 +16,7 @@ export type BadgeProps = {
 
 export type StackProps = {
   children: React.ReactNode;
+  position?: string;
 };
 
 export type JobPositionProps = {
