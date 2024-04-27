@@ -11,7 +11,15 @@
     "postedAt": "1d ago",
     "contract": "Full Time",
     "location": "USA Only",
-    "languages": ["HTML", "CSS", "JavaScript"],
+    "languages": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Redux",
+      "MobX"
+    ],
     "tools": []
   },
   {
@@ -26,7 +34,7 @@
     "postedAt": "1d ago",
     "contract": "Part Time",
     "location": "Remote",
-    "languages": ["Python"],
+    "languages": ["Python", "PHP"],
     "tools": ["React"]
   },
   {
