@@ -1,6 +1,3 @@
-export const selectAllPositions = (state: { positions: object[] }) =>
-  state.positions;
-
 export const selectVisiblePositions = (
   state: {
     positions: {
@@ -10,7 +7,7 @@ export const selectVisiblePositions = (
       tools: string[];
     }[];
   },
-  filters = []
+  filters: string[] = []
 ) => {
   if (filters.length === 0) return state.positions;
 
