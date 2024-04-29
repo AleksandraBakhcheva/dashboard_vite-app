@@ -11,6 +11,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: var(--main-font-family);
@@ -21,19 +26,23 @@ body {
 }
 
 #root {
+  display: flex;
   max-width: 1480px;
+  min-height: 100%;
   margin: 0 auto;
+  flex-direction: column;
   background-color: var(--grey-100-color);
 }
 
-.container {
+main {
+  flex: 1 1 auto;
   width: 70%;
   margin: 0 auto;
   padding: 0 1rem;
 }
 
 @media screen and (max-width: 600px) {
-  .container {
+  main {
     width: 90%;
   }
 }
