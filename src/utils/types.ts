@@ -20,17 +20,18 @@ export type StackProps = {
 };
 
 export type JobPositionProps = {
-  id: number;
-  company: string;
-  logo: string;
-  new: boolean;
-  featured: boolean;
-  position: string;
-  role: string;
-  level: string;
-  postedAt: string;
-  contract: string;
-  location: string;
-  languages: string[];
-  tools: string[];
+  id?: number;
+  company?: string;
+  logo?: string;
+  new?: boolean;
+  featured?: boolean;
+  position?: string;
+  role?: string;
+  level?: string;
+  postedAt?: string;
+  contract?: string;
+  location?: string;
+  languages?: string[];
+  tools?: string[];
+  handleAddFilter?: (filter: string) => void;
 };
