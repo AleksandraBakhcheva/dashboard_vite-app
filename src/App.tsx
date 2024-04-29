@@ -17,10 +17,10 @@ function App() {
   return (
     <>
       <Header />
-      <div className="container">
+      <main>
         <FilterPanel />
         <JobList />
-      </div>
+      </main>
       <Footer />
     </>
   );
