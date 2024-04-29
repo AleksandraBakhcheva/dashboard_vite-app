@@ -11,13 +11,14 @@ export const JobPosition = (props: JobPositionProps) => {
     new: isNew,
     featured,
     position,
-    role,
-    level,
+    role = "",
+    level = "",
     postedAt,
     contract,
     location,
-    languages,
-    tools,
+    languages = [],
+    tools = [],
+    handleAddFilter,
   } = props;
 
   const badges: string[] = [role, level, ...languages, ...tools];
@@ -55,7 +56,12 @@ export const JobPosition = (props: JobPositionProps) => {
         </div>
         <Stack>
           {badges.map((item, index) => (
-            <Badge key={index}>{item}</Badge>
+            <Badge
+              key={index}
+              onClick={() => handleAddFilter && handleAddFilter(item)}
+            >
+              {item}
+            </Badge>
           ))}
         </Stack>
       </div>
