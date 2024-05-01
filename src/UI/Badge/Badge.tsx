@@ -1,6 +1,6 @@
 import styles from "./Badge.module.css";
 import { BadgeProps } from "../../utils/types.js";
-import Remove from "../../assets/images/icon-remove.svg";
+import Remove from "../../assets/images/icon-remove.svg?react";
 
 export const Badge = (props: BadgeProps) => {
   const {
@@ -19,7 +19,7 @@ export const Badge = (props: BadgeProps) => {
       <span>{children}</span>
       {variant === "clearable" && (
         <div className={styles.badge_remover} onClick={onClear}>
-          <img src={Remove} alt="icon-remove" />
+          <Remove />
         </div>
       )}
     </div>
