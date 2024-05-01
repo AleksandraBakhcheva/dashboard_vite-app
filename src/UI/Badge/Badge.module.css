@@ -34,13 +34,13 @@
   background-color: var(--general-app-color);
 }
 
-.badge .clearable {
-  cursor: default;
-}
-
-.badge .clearable:hover {
+.clearable:hover {
   color: var(--general-app-color);
   background-color: var(--grey-200-color);
+}
+
+.rounded {
+  border-radius: var(--rounded-radii);
 }
 
 .badge_remover {
