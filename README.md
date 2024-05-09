@@ -2,7 +2,7 @@
 Based on data.json positions list by key skills filter 🧑‍💻
 
 ## Description
-Dashboard with filter to search for positions by key skills. 
+Dashboard with filter to search for positions by key skills + save results in localStorage. 
 
 ## Screens
 <img width="812.5" alt="desktop" src="https://github.com/AleksandraBakhcheva/checkboxes-structure_vite-app/assets/76097160/b4a53b13-0166-4d52-a00b-7b4eb34f9d88"> 
@@ -15,6 +15,7 @@ Dashboard with filter to search for positions by key skills.
 - React
 - TypeScript
 - Redux
+- Redux Persist
 - CSS Modules
 - Vite
 - Vercel
